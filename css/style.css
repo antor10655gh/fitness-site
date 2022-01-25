@@ -440,3 +440,20 @@ textarea:focus {
 .register form .btn:hover {
     background: var(--orange);
 }
+
+/* ----------------footer-section------------------ */
+.footer {
+    color: #eee;
+    background: #111;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 2rem;
+}
+
+.footer a {
+    color: var(--orange);
+}
+
+.footer a:hover {
+    color: #fff;
+}
