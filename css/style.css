@@ -388,3 +388,55 @@ header.header-active .navbar a {
 .plan .box-container .box .btn {
     margin-bottom: 3rem;
 }
+
+
+/* ---------------register-section style----------------- */
+.register {
+    min-height: 90vh;
+    text-align: center;
+    background: #000;
+    padding-bottom: 3rem;
+}
+
+.register .heading {
+    color: #fff;
+}
+
+.register form {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.register form .inputBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.register form .inputBox input,
+textarea {
+    height: 4rem;
+    width: 49%;
+    background: #111;
+    color: #fff;
+    padding: 0 1rem;
+    margin: 1rem 0;
+    font-size: 2rem;
+    border: none;
+}
+
+.register form .inputBox input:focus,
+textarea:focus {
+    background: #222;
+}
+
+.register form textarea {
+    height: 20rem;
+    resize: none;
+    padding: 1rem;
+    width: 100%;
+}
+
+.register form .btn:hover {
+    background: var(--orange);
+}
