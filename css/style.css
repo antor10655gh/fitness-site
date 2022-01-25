@@ -150,3 +150,40 @@ header.header-active .navbar a {
     box-shadow: 0 .3rem .5rem #000;
     color: #fff;
 }
+
+/* ----------------about-section style---------------------- */
+.about .row {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 8rem;
+}
+
+.about .row .image {
+    flex: 1 1 40rem;
+    padding: 2rem;
+}
+
+.about .row .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.about .row .content {
+    flex: 1 1 40rem;
+    padding: 2rem;
+}
+
+.about .row .content h3 {
+    color: #333;
+    font-size: 4rem;
+}
+
+.about .row .content p {
+    color: #666;
+    font-size: 1.7rem;
+    padding: 1rem 0;
+}
